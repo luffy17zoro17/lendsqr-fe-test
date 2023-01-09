@@ -62,7 +62,7 @@ const User_Info = ({firstN, lastN, accN,avatr,currency,accBal,orgN,orgPh,prPhNo,
                 <hr className="h-[6rem] border-l hidden lg:flex"/>
 
                 <div className="text-sm px-5 py-7 lg:py-0">
-                <h1 className="">User's Tier</h1>
+                <h1 className="">User&apos;s Tier</h1>
                 <div className="text-yellow-500 flex">
                  <IconProp icon={<StarIcon fontSize="small"/>}/>
                  <IconProp icon={<StarBorderIcon fontSize="small"/>}/>

@@ -43,7 +43,7 @@ const PersonalInfo = ({firstN,lastN,email,bvn,gender,prPhNo}) => {
                   </div>
                   <div className="my-9 mx-3">
                     <h1 className="mb-1 text-xs tracking-wider">TYPE OF RESIDENCE</h1>
-                    <span>Parent's Apartment</span>
+                    <span>Parent&apos;s Apartment</span>
                   </div>
                 </div>
                 
