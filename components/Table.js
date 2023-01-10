@@ -17,12 +17,12 @@ const Table = ({posts}) => {
     return (
        
          <div className='pl-4 pr-1 pb-4 bg-white shadow-lg 
-              absolute h-[15rem] mt-[3rem] overflow-y-hidden
+              absolute h-[20rem] mt-[3rem] overflow-y-hidden
                flex justify-around overflow-y-scroll lg:w-[90%] 
                lg:h-[20rem] xl:w-full xl:h-[27rem]'>
-            <table className='table-auto border-separate xl:w-[90%]'>
+            <table className='table-auto overflow-auto border-separate xl:w-[90%]'>
                <thead className='sticky top-0'>
-                 <tr className='text-left
+                 <tr className='
                     text-xs bg-white'>
                    <th className='pt-4'><span className="flex gap-2">ORGANIZATION
                    <IconProp icon={<FilterListIcon/>}/></span></th> 

@@ -36,7 +36,7 @@ const DotDialogBox = () => {
     return (
       <div className="border z-20
           shadow-xl rounded-sm text-sm text-gray-800 font-medium py-6 px-9 space-y-3
-          bg-white fixed right-8 bottom-[17rem]">
+          bg-white fixed right-8 bottom-[17rem] md:bottom-[2rem] lg:bottom-[17rem]">
          <div className="flex justify-end mr-[-1rem]
            "><IconProp 
           icon={<CloseIcon className="hover:bg-green-300

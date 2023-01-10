@@ -10,7 +10,7 @@ const Navbar = () =>{
     return (
      <div className='fixed top-0 w-full bg-white shadow-md 
       h-[6rem] z-10'>
-       <div className='flex mt-6'>
+       <div className='flex mt-6 items-center'>
         <div className="flex text-xl items-center pl-6 z-10">
          <ImageProp
             isrc={`https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/drg9bxadhql5l1e1zth0`}
@@ -22,7 +22,8 @@ const Navbar = () =>{
          <h1 className="font-bold text-3xl pl-1">lendsqr</h1>
         </div> 
         <div className='flex items-center
-         absolute right-12 z-10'>
+         justify-center mt-3
+         absolute z-10 flex-col right-12 sm:flex-row sm:mt-0'>
            <span className="underline pr-9 hidden xl:flex">Docs</span> 
            <IconProp
              icon={<NotificationsNoneIcon/>}
@@ -32,7 +33,9 @@ const Navbar = () =>{
              isrc={`https://w0.peakpx.com/wallpaper/279/139/HD-wallpaper-monkey-d-luffy-anime-evening-field-one-piece.jpg`}
              iht={50}
              iwd={50}
-             iclassN={`rounded-full mr-4 h-[3rem] w-[3rem] object-cover`}
+             iclassN={`rounded-full object-cover h-[1.5rem]
+             w-[1.5rem]
+             sm:h-[3rem] sm:w-[3rem] sm:mr-4`}
              alt={"profile_image"}
            />
            Thomas Mathew
