@@ -12,22 +12,23 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='flex justify-center flex-col 
-       items-center h-screen text-3xl space-y-5'>
+      <main className='flex justify-center flex-col
+       items-center h-screen text-3xl space-y-11'>
          Test Pages:<br/>
+      <div className='space-y-9'>
+        <span className='flex font-bold'>1-&nbsp;
+        <LinkProp lclassN={`text-blue-500 hover:text-red-500
+          focus:text-purple-700`} lhref={`/Login`} title={`Login`}/></span>
 
-        <span className='flex font-bold'>1.&nbsp;
-        <LinkProp lclassN={`underline text-blue-500
-          focus:text-red-500`} lhref={`/Login`} title={`Login`}/></span>
-
-        <span className='flex font-bold'>2.&nbsp;
-        <LinkProp lclassN={`underline text-blue-500
+        <span className='flex font-bold'>2-&nbsp;
+        <LinkProp lclassN={`text-blue-500 hover:text-red-500
           focus:text-red-500`} lhref={`/Dashboard`} title={`Dashboard`}/></span>  
 
-        <span className='flex font-bold'>4.&nbsp;
-        <LinkProp lclassN={`underline text-blue-500
-          focus:text-red-500`} lhref={`/User_Details`} title={`User_Details [Access only from Dashboard!]`}/></span>   
-
+        <span className='flex font-bold w-[19rem]'>3-&nbsp;
+      
+        <LinkProp lclassN={`text-blue-500 hover:text-red-500
+          focus:text-red-500`} lhref={`/User_Details`} title={`User_Details [Access only from Dashboard page! (Click the 3 dots)]`}/></span>   
+      </div>
          
       </main>
     </>
